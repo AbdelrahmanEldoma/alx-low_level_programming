@@ -6,6 +6,6 @@
 */
 int main(void)
 {
-	fprintf(stderr, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", "string format", 60);
+	fprintf(stderr, "and that piece of art is useful\" - Dora Korpar, 2015-10-19", "string format", 59);
 	return (1);
 }
