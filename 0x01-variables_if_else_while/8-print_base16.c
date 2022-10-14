@@ -13,7 +13,7 @@ int main(void)
 	putchar(c);
 	c++;
 }
-	c = 97
+	c = 97;
 
 	while (c != 103)
 {

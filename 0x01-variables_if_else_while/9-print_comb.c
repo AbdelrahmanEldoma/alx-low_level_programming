@@ -10,9 +10,12 @@ int main(void)
 
 	while (c != 58)
 {
+	if (c != 57)
+{
 	putchar(c);
 	putchar(',');
 	putchar(' ');
+}
 	c++;
 }
 	putchar('\n');
