@@ -6,12 +6,12 @@
 */
 int main(void)
 {
-	int num = 0;
+	char c = 48;
 
-	while (num > 10)
+	while (c != 58)
 {
-	printf("%d", num);
-	num++;
+	putchar(c);
+	c++;
 }
 	return (0);
 }
