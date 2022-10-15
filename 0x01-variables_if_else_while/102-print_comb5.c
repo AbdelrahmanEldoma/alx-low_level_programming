@@ -22,7 +22,7 @@ int main(void)
 
 	while (c4 != 58)
 {
-	if (c3 + c4 > c1 + c2)
+	if (c3 * c4 > c1 * c2)
 {
 	putchar(c1);
 	putchar(c2);
