@@ -29,7 +29,7 @@ int main(void)
 	putchar(' ');
 	putchar(c3);
 	putchar(c4);
-	if (c1 + c2 + c3 + c4 != 227)
+	if (c1 + c2 + c3 + c4 != 227 && c3 + c4 > c1 + c2)
 {
 	putchar(',');
 	putchar(' ');
