@@ -32,6 +32,7 @@ int main(void)
 	if (c1 + c2 + c3 + c4 != 227)
 {
 	putchar(',');
+	putchar(' ');
 }
 }
 	c4++;
