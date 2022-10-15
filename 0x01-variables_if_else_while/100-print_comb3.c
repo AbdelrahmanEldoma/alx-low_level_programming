@@ -27,7 +27,7 @@ int main(void)
 }
 	c2++;
 }
-	c1++
+	c1++;
 }
 	putchar('\n');
 	return (0);
