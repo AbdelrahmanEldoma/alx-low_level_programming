@@ -1,5 +1,5 @@
-#ifndef PERVERSE_H_INCLUDED
-#define PERVERSE_H_INCLUDED
+#ifndef MAIN_H
+#define MAIN_H
 #include <stddef.h>
 	extern int main(void);
 	extern void _putchar(int);

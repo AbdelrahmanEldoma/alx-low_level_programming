@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 /**
 *print_sign - checks of if a number
 *positive, negative or zero
@@ -12,18 +13,18 @@ int print_sign(int n)
 
 {
 	return (1);
-	putchar('+');
+	_putchar('+');
 }
 
 	if (n < 0)
 
 {
 	return (-1);
-	putchar('-');
+	_putchar('-');
 }
 	else
 {
 	return (0);
-	putchar('0');
+	_putchar('0');
 }
 }
