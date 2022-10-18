@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include "holberton.h"
 /**
 *print_sign - checks of if a number
 *positive, negative or zero
