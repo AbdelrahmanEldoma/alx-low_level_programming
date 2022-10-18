@@ -2,6 +2,7 @@
 #define PERVERSE_H_INCLUDED
 #include <stddef.h>
 	extern int main(void);
+	extern void _putchar(int);
 	extern void print_alphabet(void);
 	extern void print_alphabet_x10(void);
 	extern int _islower(int c);
