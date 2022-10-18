@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "holberton.h"
 /**
 *print_sign - checks of if a number
 *positive, negative or zero
@@ -11,19 +12,19 @@ int print_sign(int n)
 	if (n > 0)
 
 {
-	putchar('+');
+	_putchar('+');
 	return (1);
 }
 
 	if (n < 0)
 
 {
-	putchar('-');
+	_putchar('-');
 	return (-1);
 }
 	else
 {
-	putchar('0');
+	_putchar('0');
 	return (0);
 }
 }
