@@ -3,10 +3,10 @@
 #include <ctype.h>
 #include "main.h"
 /**
-*_isupper - converts letter to upper case
+*_isupper - checks if a letter is upper case
 *
 *@c: a character
-*Return: upper case letter
+*Return: 0 and 
 */
 int _isupper(int c)
 {
