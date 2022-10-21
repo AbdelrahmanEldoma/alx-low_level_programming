@@ -3,6 +3,7 @@
 /**
 *_isdigit- checks if a file is a digit
 *
+*@c: a character
 *Return: 0 or 1
 */
 int _isdigit(int c)
