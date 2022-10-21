@@ -6,7 +6,7 @@
 *_isupper - checks if a letter is upper case
 *
 *@c: a character
-*Return: 0 and 
+*Return: 0 and 1
 */
 int _isupper(int c)
 {
