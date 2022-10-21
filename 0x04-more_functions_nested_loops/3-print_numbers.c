@@ -11,5 +11,4 @@ void print_numbers(void)
 {
 	printf("%d", i);
 }
-	printf("\n");
 }
