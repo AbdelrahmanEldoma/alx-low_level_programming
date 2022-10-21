@@ -4,6 +4,7 @@
 /**
 *_isupper - converts letter to upper case
 *
+*@c: a character
 *Return: upper case letter
 */
 int _isupper(int c)
