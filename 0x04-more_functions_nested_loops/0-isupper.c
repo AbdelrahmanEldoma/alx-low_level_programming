@@ -11,7 +11,7 @@ int _isupper(int c)
 	if (isupper(c) == c)
 	return (0);
 	if (isupper(c) != c)
-	return (1);
+	return (isupper(c));
 }
 /**
 *main - check the code.
