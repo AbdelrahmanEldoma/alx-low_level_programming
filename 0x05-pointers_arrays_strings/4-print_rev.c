@@ -22,5 +22,5 @@ void print_rev(char *s)
 	i--;
 	j++;
 }
-	printf("%s", s);
+	puts(s);
 }
