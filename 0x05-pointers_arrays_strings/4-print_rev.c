@@ -11,6 +11,6 @@
 
 void print_rev(char *s)
 {
-	s = rev_string(*s);
+	s = rev_string(s);
 	puts(s);
 }
