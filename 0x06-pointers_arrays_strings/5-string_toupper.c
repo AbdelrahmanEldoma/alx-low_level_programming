@@ -9,10 +9,13 @@
 */
 char *string_toupper(char *str)
 {
-	char *str2;
-	for (int i = 0; str[i] != '\0' && str[i] != ' '; i++)
+	int i = 0;
+
+	while (str[i])
 {
-	str2[i] = toupper(str[i]);
+	if (str[index] >= 'a' && str[index] <= 'z')
+	str[index] -= 32;
+	index++;
 }
-	return (str2);
+	return (str);
 }
