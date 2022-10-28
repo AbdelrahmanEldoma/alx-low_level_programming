@@ -1,10 +1,9 @@
 #include <stdio.h>
 #include <ctype.h>
 /**
-*_strcmp - concatenates two strings
+*string_toupper - converts to uppercase
 *
-*@s1: a string
-*@s1: a string
+*@str: a string
 *Return: an integer
 */
 char *string_toupper(char *str)
