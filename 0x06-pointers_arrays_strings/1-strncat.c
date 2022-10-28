@@ -10,5 +10,5 @@
 */
 char *_strncat(char *dest, char *src, int n)
 {
-	return (strcat(dest, src));
+	return (memset(strcat(dest, src), 0, n));
 }
