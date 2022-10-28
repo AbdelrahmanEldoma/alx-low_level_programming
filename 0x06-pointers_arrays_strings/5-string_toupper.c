@@ -9,9 +9,10 @@
 */
 char *string_toupper(char *str)
 {
+	char *str2;
 	for (int i = 0; str[i] != '\0' && str[i] != ' '; i++)
 {
-	str[i] = toupper(str[i]);
+	str2[i] = toupper(str[i]);
 }
-	return (str);
+	return (str2);
 }
