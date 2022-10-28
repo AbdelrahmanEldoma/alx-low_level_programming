@@ -4,7 +4,7 @@
 *string_toupper - converts to uppercase
 *
 *@str: a string
-*Return: an integer
+*Return: a string
 */
 char *string_toupper(char *str)
 {
