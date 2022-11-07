@@ -10,6 +10,6 @@
 3-mul.c
 4-add.c
 100-change.c
-_putchar.c
+_putchar
 
 #endif
