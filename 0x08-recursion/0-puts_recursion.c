@@ -1,7 +1,6 @@
 #include <stdio.h>
 /**
 *Myrec - the function used for recursion
-*_puts_recursion - prints string with recursion
 *@s: a string
 *@x: an intger
 */
@@ -13,7 +12,13 @@ if (s[x] == '\0')
 	printf("%c", s[x]);
 	Myrec(s, x + 1);
 }
+/**
+*_puts_recursion - prints string with recursion
+*@s: a string
+*/
+
 	void _puts_recursion(char *s)
 {
 	Myrec(s, 0);
+	_putchar('\n');
 }
