@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include "main.h"
+/**
+*print_most_numbers- prints numbers from 0 to 9
+*except 2 and 4
+*
+*Return: no return value
+*/
+void print_most_numbers()
+{
+    int i;
+    for (i = 0; i < 10; ++i)
+{
+    if (i == 2)
+{
+    i++;
+}
+    if (i == 4)
+{
+    i++;
+}
+    printf("%d",i);
+}
+    printf("\n");
+}
