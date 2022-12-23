@@ -9,11 +9,11 @@ void more_numbers(void)
 {
 	int i;
 
-	for (int i = 0; i < 11; ++i)
+	for (i = 0; i < 11; ++i)
 {
 	int i;
 
-	for (int i = 0; i < 15; ++i)
+	for (i = 0; i < 15; ++i)
 {
 	printf("%d", i);
 }
