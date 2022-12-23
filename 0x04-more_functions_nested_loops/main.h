@@ -3,6 +3,7 @@
 #include <stdio.h>
 #include <ctype.h>
 #include <stdlib.h>
+#include <stddef.h>
 
 extern int _isupper(int c);
 extern int _isdigit(int c);
