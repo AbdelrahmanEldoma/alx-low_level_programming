@@ -20,9 +20,9 @@ int  main(void)
 		printf("Buzz ");
 	else if (i % 3 == 0 && i % 5 == 0)
 		printf("FizzBuzz ");
-	else if(i % 3 != 0 && i % 5 != 0 && i != 100)
+	else if (i % 3 != 0 && i % 5 != 0 && i != 100)
 		printf("%d ", i);
-	else if(i % 3 != 0 && i % 5 != 0 && i == 100)
+	else if (i % 3 != 0 && i % 5 != 0 && i == 100)
 		printf("%d", i);
 }
 	return (0);
