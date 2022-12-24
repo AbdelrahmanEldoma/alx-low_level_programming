@@ -7,6 +7,6 @@
 */
 int main(void)
 {
-	printf("50829599");
+	printf("50829599\n");
 	return (0);
 }
