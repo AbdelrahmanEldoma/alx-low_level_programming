@@ -11,16 +11,17 @@ void print_square(int size)
 	if (size > 0)
 {
 	int i;
+	int j;
 
 	for (i = 0; i < size; ++i)
 {
-	for (int j = 0; j < size; ++j)
+	for (j = 0; j < size; ++j)
 {
-	printf("#");
+	_putchar('#');
 }
-	printf("\n");
+	_putchar('\n');
 }
 }
 	else
-	printf("\n");
+		_putchar('\n');
 }
