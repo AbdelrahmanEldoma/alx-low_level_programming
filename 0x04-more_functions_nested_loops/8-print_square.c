@@ -1,25 +1,26 @@
+#include <stdio.h>
 #include "main.h"
-
 /**
- * print_square - Entry point
- *
- * @size: size is a variable name
- *
- * Return: Always 0 (Success)
- */
-
+*print_square- prints a square of "#"
+*
+*@size: an integer
+*Return: no return value
+*/
 void print_square(int size)
 {
-	int i, j;
+	if (size > 0)
+{
+	int i;
 
-	for (i = 0; i < size; i++)
-	{
-		for (j = 0; j < size; j++)
-		{
-			_putchar('#');
-		}
-		_putchar('\n');
-	}
-	if (size <= 0)
-		_putchar('\n');
+	for (i = 0; i < size; ++i)
+{
+	for (int j = 0; j < size; ++j)
+{
+	printf("#");
+}
+	printf("\n");
+}
+}
+	else
+	printf("\n");
 }
