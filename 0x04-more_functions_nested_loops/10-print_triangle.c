@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
-*print_diagonal- prints a tingle of "#"
+*print_triangle- prints a tingle of "#"
 *
 *@size: an integer
 *Return: no return value
