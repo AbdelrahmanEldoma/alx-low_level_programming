@@ -2,7 +2,7 @@
 #include <stdlib.h>
 /**
  * main - prints the number of arguments
- * @argc: the number of arguements
+ * @argc: the number of arguments
  * @argv: an array of strings
  * Return: return 0
  */
