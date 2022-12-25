@@ -9,8 +9,14 @@
  * Return: return 0
  */
 
-int main(int argc, char **argv __attribute__((unused)))
+int main(int argc, char* argv[])
 {
-	printf("%d\n", argc - 1);
+	int i = 0;
+
+	while (i < argc)
+{
+	printf("No of Arguments: %d, Name: %s\n", argc, argv[i]);
+	i++;
+}
 	return (0);
 }
