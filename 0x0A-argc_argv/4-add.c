@@ -2,10 +2,10 @@
 #include <ctype.h>
 #include <stdlib.h>
 /**
-* main - will add numbers.
-* @argc: number of arguments.
-* @argv: array the number.
-* Return: return 0.
+* main - will add numbers
+* @argc: number of arguments
+* @argv: array the number
+* Return: return 0 or 1
 */
 int main(int argc, char *argv[])
 {
