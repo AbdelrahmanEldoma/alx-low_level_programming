@@ -2,11 +2,11 @@
 #include <ctype.h>
 #include <stdlib.h>
 /**
- * main - will add numbers.
- * @argc: number of arguments.
- * @argv: array the number.
- * Return: return 0.
- */
+* main - will add numbers.
+* @argc: number of arguments.
+* @argv: array the number.
+* Return: return 0.
+*/
 int main(int argc, char *argv[])
 {
 	int i;
