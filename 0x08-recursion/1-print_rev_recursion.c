@@ -4,7 +4,6 @@
 *_print_rev_recursion - the function used for recursion
 *@s: a string
 */
-
 void _print_rev_recursion(char *s)
 {
 	if (*s == 0)
@@ -14,5 +13,5 @@ void _print_rev_recursion(char *s)
 	s++;
 	_print_rev_recursion(s);
 	s--;
-	_putchar(*s);
+	putchar(*s);
 }
