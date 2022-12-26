@@ -10,7 +10,7 @@ int is_palindrome(char *s)
 
 	first = 0;
 	last = _strlen_recursion(s) - 1;
-	return (palindrome(s, first, last));
+	return (is_palindrome(s, first, last));
 }
 
 /**
