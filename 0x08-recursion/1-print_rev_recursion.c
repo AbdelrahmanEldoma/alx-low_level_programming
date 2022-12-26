@@ -3,7 +3,7 @@
 *_print_rev_recursion - the function used for recursion
 *@s: a string
 *
-* return: a zero
+* Return: a zero
 */
 void _print_rev_recursion(char *s)
 {
