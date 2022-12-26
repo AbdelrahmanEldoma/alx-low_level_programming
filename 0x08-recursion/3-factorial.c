@@ -3,7 +3,7 @@
 *factorial- the function used for recursion
 *@n: a number
 *
-*Return: factorial pf a number
+*Return: factorial of a number
 */
 int factorial(int n)
 {
