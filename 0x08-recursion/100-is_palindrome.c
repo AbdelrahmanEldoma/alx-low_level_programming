@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
 *is_palindrome-  checks if is palindrome
 *@s: int type
@@ -10,7 +11,7 @@ int is_palindrome(char *s)
 
 	first = 0;
 	last = _strlen_recursion(s) - 1;
-	return (is_palindrome(s, first, last));
+	return (palindrome(s, first, last));
 }
 
 /**
